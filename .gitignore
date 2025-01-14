@@ -1,0 +1,25 @@
+# Data folder
+data/
+
+# Saved models
+saved_models/
+*.pt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Log files
+logs/
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
