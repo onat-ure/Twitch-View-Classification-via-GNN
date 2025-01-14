@@ -61,6 +61,8 @@ This project uses Graph Neural Networks (GNN) to predict Twitch views based on t
 
 1. **Evaluate the Model:**
    Run the `test.py` script to evaluate the model. Enter the number of the latest best model to evaluate. This will also generate a plot of the predicted vs true views. 
-   ```python test.py
+
+   ```
+   python test.py
    ```
 
