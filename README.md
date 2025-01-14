@@ -17,11 +17,15 @@ This project uses Graph Neural Networks (GNN) to predict Twitch views based on t
 - Nodes represent Twitch streamers.
 - Edges represent mutual friendships between streamers.
 - Node features include:
-  - `language`: Primary language of the streamer.
-  - `views`: Number of views the streamer has received.
-  
-  - Additional features like game preferences and streaming activity may be included.
-
+    - **Identifier**: Numeric vertex identifier (Index).
+    - **Dead Account**: Inactive user account (Categorical).
+    - **Broadcaster Language**: Languages used for broadcasting (Categorical). 
+    - **Affiliate Status**: Affiliate status of the user (Categorical).
+    - **Explicit Content**: Explicit content on the channel (Categorical).
+    - **Creation Date**: Joining date of the user (Date).
+    - **Last Update**: Last stream of the user (Date).
+    - **Account Lifetime**: Days between first and last stream (Count).
+    - **Time Since Creation**: Days since the user joined Twitch (Count).
 
 
 ---
