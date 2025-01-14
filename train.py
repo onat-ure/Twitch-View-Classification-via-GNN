@@ -168,7 +168,7 @@ def evaluate():
 
 
 best_val_loss = float('inf')
-patience = 15  
+patience = 15
 patience_counter = 0
 n_epochs = 300  
 
